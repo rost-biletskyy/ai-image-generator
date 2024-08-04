@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-input {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid lightgrey;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.result-image {
+  margin-top: 20px;
+  border: 2px solid lightgray;
+  padding: 10px;
+  width: 100%;
+}
+
+.card {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  color: #888;
+}
